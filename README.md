@@ -9,4 +9,5 @@ Funcionalidades de la calculadora
 ---------------------------------
 + Calculadora de función x^3
 + Calculadora de función x^4
++ Calculadora de función sin(x)
 
