@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Calculator</title><meta charset="utf-8">
-<script type="text/javascript">
-function cube() {
-var num = document.getElementById("n1");
-num.value = Math.pow(num.value, 3);
-}
-</script>
-</head>
-<body>
-<h1>Calculadora de ……MIGUEL AGUILAR……</h1>
-Number:
-<input type="text" id="n1"><p>
-<button onclick="cube()"> x^3 </button>
-</body>
+	<head>
+		<title>Calculator</title><meta charset="utf-8">
+		<script type="text/javascript">
+			function cube() {
+				var num = document.getElementById("n1");
+				num.value = Math.pow(num.value, 3);
+			}
+			function sin() {
+				var num = document.getElementById("n3");
+				num.value = Math.sin(num.value);
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Calculadora de ……MIGUEL AGUILAR……</h1>
+		<div>
+			Number x^3:
+			<input type="text" id="n1"><p>
+			<button onclick="cube()"> x^3 </button>
+		</div>
+		<div>
+			Number sin(x):
+			<input type="text" id="n3"><p>
+			<button onclick="sin()"> sin(x) </button>
+		</div>
+	</body>
 </html>
